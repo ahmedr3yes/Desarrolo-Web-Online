@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahmed Reyes</title>
     <link rel="icon" href="imagenes/superhero.png">
-</head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        header{
+            background: green;
+        }
+    </style>
 <body>
     <header>
-        <img src="./imagenes/superhero.png" alt="Logo" width="500" height="300">
+        <nav>
+            
             <ol>
                 <li>
-                    <a href="">Portafolio</a>
+                    <a href="#pendientes">Pendientes</a>
                 </li>
                 <li>
-                    <a href="">Experiencia</a>
+                    <a href="#aprendizaje">Experiencia</a>
                 </li>
                 <li>
-                    <a href="">Trabajemos Juntos</a>
+                    <a href="#contacto">Trabajemos Juntos</a>
                 </li>
             </ol>
         </nav>
@@ -27,7 +33,7 @@
             Hola! Soy <strong>Ahmed Reyes</strong> estudiante <br> con pasión por <strong>aprender</strong>
         </h1>
         <img src="./imagenes/image2.png" alt="fjgi" width="500" height="300">
-    <section>
+    <section id="pendientes">
         <h2>Pendientes</h2>
         <article>
            <h3>Pagina E.M.I.</h3> 
@@ -37,18 +43,23 @@
            <p>Esta página se va a hacer con el apoyo de la profesora Erika Jazmín Peña para hacer una página la Educación Media Integral</p>
         </article>
     </section>
-    <section>
+    <section id="aprendizaje">
         <h2>Más sobre mi aprendizaje</h2>
         <article>
             <figure>
                 <img src="./imagenes/Platzi-f730e65b-e92b-44d3-81c0-5c59c4dc4658.webp" alt="Logo Platzi">
                 <h3>Platzi</h3>
                 <p>Es una plataforma de aprendizaje online, donde haciendo el curso de desarrollo web online</p>
-                <a href="">Ver Platzi</a>
+                <a href="https://platzi.com/" target="_blank">Ver Platzi</a>
             </figure>
         </article>
     </section>
-    <section>Sección Contacto </section>
+    <section id="contacto">
+        <form action="/suscripcion/"></form>
+        <h3>¿Creamos algo juntos?</h3>
+        <input type="text" placeholder="Déjame tu emaivall">
+        <button>Enviar</button>
+    </section>
     <footer>Footer</footer>
 </body>
 </html>
