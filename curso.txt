@@ -1,3 +1,30 @@
 Desarrollo web online
 
-Las etuhadasdjks
+Colores: 
+Se pueden representar de 3 maneras: 
+-Palabra Clave como: "red,blue,etc.".
+-Hexadecimal como: "#00000".
+-Usando hsl hlsla.
+
+
+Unidades De Medida:
+Píxeles: ¿Qué es?
+La menor parte unidad homógenea de color 
+que forma parte de una imagen digital.
+
+¿Para qué se utiliza?
+Para los tamaños de imágenes, textos, bordes, 
+dimensiones, márgenes, rellenos.
+  
+
+Estados de html:
+-Hover:Se le dice hover cuando pasamos en click encima de un elemento.
+
+Las propiedades de CSS se heredan hacía sus hijos.
+
+Insertar fuentes:
+-Forma Stnadard: <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+-Forma Import:<style>
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+</style>
+Las dos fuentes que necesito: <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
