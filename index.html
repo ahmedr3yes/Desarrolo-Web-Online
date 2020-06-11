@@ -1,67 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/Images/image1.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
     <title>Ahmed Reyes</title>
-    <link rel="icon" href="imagenes/superhero.png">
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-   
-<body>
+  </head>
+  <body>
+
     <header class="header">
+      <div class="container">
+
         <nav class="menu">
-            
-            <ol>
-                <li>
-                    <a class="link" href="#pendientes">Pendientes</a>
-                </li>
-                <li>
-                    <a class="link" href="#aprendizaje">Experiencia</a>
-                </li>
-                <li>
-                    <a class="link" href="#contacto">Trabajemos Juntos</a>
-                </li>
-            </ol>
+          <ol>
+            <li>
+              <a class="link" href="#pendientes">Pendientes</a>
+            </li>
+            <li>
+              <a class="link" href="#aprendizaje">Experiencia</a>
+            </li>
+            <li>
+              <a class="link" href="#contacto">Trabajemos Juntos</a>
+            </li>
+          </ol>
         </nav>
+
+      </div>
     </header>
+
     <section class="hero">
+      <div class="container">
         <h1>
-            Hola! Soy <strong>Ahmed Reyes</strong> <br> estudiante con pasión <br> por <strong>aprender</strong>
+          Hola! Soy <strong>Ahmed Reyes</strong> <br />
+          <strong>estudiante</strong> con pasión <br />
+          por
+          <strong>aprender</strong>
         </h1>
-        <img src="./imagenes/image2.png" alt="fjgi" width="500" height="300">
-    <section id="pendientes" class="pendients">
-        <h2>Pendientes</h2>
-        <article class="project">
+        <img class="hero-image" src="./imagenes/image2.png" alt="fjgi" width="500" height="300">
+      </div>
+    </section>
+
+<!--     <section id="aprendizaje"> -->
+      <section id="pendientes" class="pendients">
+        <div class="container">
+
+          <h2>Pendientes</h2>
+          <article class="project">
             <div class="project_details">
-                <h3 class="project-title">Pagina E.M.I.</h3> 
-                <h6 class="project-language">Html y CSS</h6>
-                <p class="project-date"><small><strong>Fecha:</strong> Actual</small></p>
-                <p project-description><small><strong>Puedes verlo en:</strong>Todavia no la he creado
-                Esta página se va a hacer con el apoyo de la profesora Erika Jazmín Peña para hacer una página la Educación Media Integral</p>
-                <figure class="project-imageContainer">
-                    <img src="Images/descarga.png" alt="Falta imagen">
-                </figure>
+              <h3 class="project-title">Pagina E.M.I.</h3>
+              <h6 class="project-language">Html y CSS</h6>
+              <p class="project-date">
+                <small><strong>Fecha:</strong> Actual</small>
+                <p id="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eveniet unde, nam vitae nobis modi voluptatibus assumenda repellendus dolores! Fugiat quam incidunt harum dolore corporis beatae, ratione accusamus aliquam architecto?</p>
+              </p>
             </div>
-        </article>
-    </section>
-    <section id="aprendizaje">
-        <h2>Más sobre mi aprendizaje</h2>
-        <article>
-            <figure class="project-aprendizajeContainer">
-                <img class="project-aprendizaje" src="./imagenes/Platzi-f730e65b-e92b-44d3-81c0-5c59c4dc4658.webp" alt="Logo Platzi idth="500" height="300">
-                <h3>Platzi</h3>
-                <p>Es una plataforma de aprendizaje online, donde haciendo el curso de desarrollo web online</p>
-                <a href="https://platzi.com/" target="_blank">Ver Platzi</a>
-            </figure>
-        </article>
-    </section>
+              <figure class="project-imageContainer">
+                <img src="Images/descarga.png" width="500" height="500" alt="Falta imagen" />
+              </figure>
+          </article>
+  
+          <article class="project">
+            <div class="project_details">
+              <h3 class="project-title">Pagina E.M.I.</h3>
+              <h6 class="project-language"><strong>Html y CSS</strong> </h6>
+              <p class="project-date">
+                <small><strong>Fecha:</strong> Actual</small>
+                <p id="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae asperiores provident autem. Maiores unde velit nemo libero modi ex pariatur eius quam, dolore esse ut autem! Deserunt quod blanditiis rerum.</p>
+              </p>
+            </div>
+              <figure class="project-imageContainer">
+                <img src="Images/descarga.png" width="500" height="500" alt="Falta imagen" />
+              </figure>
+          </article>
+      </section>
+
+      <div class="container">
+        <h2 class="event-list-title">Más sobre mi aprendizaje</h2>
+      </div>
+        <section class="events-list" id="events">
+            <div class="container-events">
+
+              <article class="events">
+                <figure class="project-aprendizajeContainer">
+                  <img class="project-aprendizaje"
+                  src="./imagenes/Platzi-f730e65b-e92b-44d3-81c0-5c59c4dc4658.webp"
+                  alt="Logo Platzi" width=" 500" height="300">
+                </figure>
+                <div class="event-detail">
+                  <h3>Platzi</h3>
+                  <p class="event-description">
+                    Es una plataforma de aprendizaje online, donde haciendo el curso de
+                    desarrollo web online
+                  </p>
+                  <a class="event-url" href="https://platzi.com/" target="_blank">Ver Platzi</a>
+                </div>
+                </article>
+
+                <article class="events">
+                  <figure class="project-aprendizajeContainer">
+                    <img class="project-aprendizaje"
+                    src="./imagenes/Platzi-f730e65b-e92b-44d3-81c0-5c59c4dc4658.webp"
+                    alt="Logo Platzi" width="500" height="300">
+                  </figure>
+                  <div class="event-detail">
+                    <h3>Platzi</h3>
+                    <p class="event-description">
+                      Es una plataforma de aprendizaje online, donde haciendo el curso de
+                      desarrollo web online
+                    </p>
+                    <a class="event-url" href="https://platzi.com/" target="_blank">Ver Platzi</a>
+                  </div>
+                </article>
+    
+              <article class="events">
+                <figure class="project-aprendizajeContainer">
+                  <img class="project-aprendizaje"
+                  src="./imagenes/Platzi-f730e65b-e92b-44d3-81c0-5c59c4dc4658.webp"
+                  alt="Logo Platzi" width="500" height="300">
+                </figure>
+                <div class="event-detail">
+                  <h3>Platzi</h3>
+                  <p class="event-description">
+                    Es una plataforma de aprendizaje online, donde haciendo el curso de
+                    desarrollo web online
+                  </p>
+                  <a class="event-url" href="https://platzi.com/" target="_blank">Ver Platzi</a>
+                </div>
+              </article>
+    
+              <article class="events">
+                <figure class="project-aprendizajeContainer">
+                  <img class="project-aprendizaje"
+                  src="./imagenes/Platzi-f730e65b-e92b-44d3-81c0-5c59c4dc4658.webp"
+                  alt="Logo Platzi" width="500" height="300">
+                </figure>
+                <div class="event-detail">
+                  <h3>Platzi</h3>
+                  <p class="event-description">
+                    Es una plataforma de aprendizaje online, donde haciendo el curso de
+                    desarrollo web online
+                  </p>
+                  <a class="event-url" href="https://platzi.com/" target="_blank">Ver Platzi</a>
+                </div>
+              </article>
+
+            </div>
+
+        </section>
+
     <section id="contacto" class="contact">
-        <form action="/suscripcion/" class="form-email"></form>
+      <div class="container">
+
+        <form action="/suscripcion/" class="form-email">
         <h3>¿Creamos algo juntos?</h3>
-        <input type="text" placeholder="Déjame tu emaivall">
+        <input type="text" placeholder="Déjame tu email" />
         <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://twitter.com/explore" target="_blank" class="social-link Twitter"></a>
+          <a href="https://www.facebook.com/profile.php?id=100011733980151" target="_blank" class="social-link Facebook"></a>
+          <a href="https://github.com/" target="_blank" class="social-link Github"></a>
+          <a href="https://www.instagram.com/ahmedreyes121/?hl=es-la" target="_blank" class="social-link Instagram"></a>
+        </div>
+
+      </div>
     </section>
-    <footer class="footer">Footer</footer>
-</body>
+
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>Curso de HTML y CSS <img src="/Images/image1.png" alt="Yoo" width="20px" height="20px"></p>
+        </div>
+        <div>
+          <p>
+            Designed with love by <a href="https://www.facebook.com/profile.php?id=750306795" target="_blank">@ErikaJazminPeña</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -30,3 +30,6 @@ Insertar fuentes:
 Las dos fuentes que necesito: <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
 
 
+Poner colores de fondo a imagenes o textos:
+
+Se puede hacer con la funcion background-color
